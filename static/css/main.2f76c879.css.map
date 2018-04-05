@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,sBAAwB,CAG1B,MACC,eAAiB,CAGlB,MACC,gBAA2B","file":"static/css/main.2f76c879.css","sourcesContent":["body {\n  font-family: sans-serif;\n}\n\ntable {\n\tmargin-top: 20px;\n}\n\nth, td {\n\tpadding: 2px 10px 2px 10px;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
