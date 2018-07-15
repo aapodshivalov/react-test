@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {render} from 'react-dom';
+import {render} from 'react-dom'; // eslint-disable-next-line 
 import data from './data.json'
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'; // eslint-disable-next-line 
 import Modal from './Modal';
 import Modal2 from './Modal2';
 
@@ -82,7 +82,7 @@ class Table extends Component {
               <tr key={row.id}>
                 <td>{dateFormat(row.docDate, "dd.mm.yyyy")}</td>
                 <td>
-                  <a id={row.id} href='#' onClick={this.toggleModal}>{row.displayName}</a>
+                  <a id={row.id} href='#' onClick={this.toggleModal}>{row.displayName}</a> // eslint-disable-next-line 
                 </td>
                 <th><button id={row.id} onClick = {this.toggleModal2}>Редактировать</button></th>
               </tr>
