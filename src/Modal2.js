@@ -30,8 +30,8 @@ class Modal2 extends React.Component {
     }
 
     handleSubmit(event) {
-      alert('Данные, введенные на форме \n' + 'Наименование: ' + this.state.value + '\n'
-       + 'Описание: ' + this.state.value1 + '\n' + 'Дата документа: ' + this.state.value2);
+      alert('Данные, введенные на форме \n' + 'Наименование: ' + this.state.value + '\n' // eslint-disable-next-line 
+       + 'Описание: ' + this.state.value1 + '\n' + 'Дата документа: ' + this.state.value2); // eslint-disable-next-line 
       // event.preventDefault();
       this.setState({value: '', value1: '', value2: ''});
     }
